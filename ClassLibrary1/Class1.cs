@@ -20,12 +20,11 @@ namespace ClassLibrary1
             D = 0;
         }
 
-        public Class1(double na, double nb, double nc, double nD)
+        public Class1(double na, double nb, double nc)
         {
             a = na;
             b = nb;
             c = nc;
-            D = nD;
         }
 
         public double fn()

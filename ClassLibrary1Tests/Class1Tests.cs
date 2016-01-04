@@ -14,7 +14,8 @@ namespace ClassLibrary1.Tests
         [TestMethod()]
         public void Class1Test()
         {
-            Assert.Fail();
+            Class1 p = new Class1(1, 6, 9);
+            
         }
 
         [TestMethod()]

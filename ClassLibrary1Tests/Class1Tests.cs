@@ -15,7 +15,7 @@ namespace ClassLibrary1.Tests
         public void Class1Test()
         {
             Class1 p = new Class1(1, 6, 9);
-            
+            Assert.AreEqual(0, p.fn());
         }
 
         [TestMethod()]

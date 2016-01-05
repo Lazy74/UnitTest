@@ -29,7 +29,7 @@ namespace ClassLibrary1
 
         public double fn()
         {
-            D = b * b - 4 * a * c;
+            D = b * b - 4 * a * c +1;
             return D;
         }
     }
